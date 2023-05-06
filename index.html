@@ -4,15 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Youtube.com Practice</title>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
-    <img class="thumbnail" src="thumbnails/hq720.webp" alt="" />
-    <p class="video-title">Top 10 BEST Auditions on BGT 2023 So Far!</p>
 
-    <p class="video-author">Top 10 Talent</p>
-    <p class="video-stats">7,9 mil. zhliadnutí &#183; pred 10 dňami</p>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img
+          class="thumbnail"
+          src="thumbnails/top-10-bgt.webp"
+          alt="Top 10 BGT Auditions 2023"
+        />
+      </div>
+      <div>
+        <div class="channel-img">
+          <img
+            class="profile-img"
+            src="channel-img/got-talent-global.jpg"
+            alt="got-talent-global"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Top 10 BEST Auditions on BGT 2023 So Far!</p>
+          <p class="video-author">Top 10 Talent</p>
+          <p class="video-stats">7,9 mil. zhliadnutí &#183; pred 10 dňami</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/dune-two.webp" />
+      </div>
+      <div>
+        <div class="channel-img">
+          <img
+            class="profile-img"
+            src="/channel-img/warner-bros-pictures.jpg"
+            alt="Warner Bros. Pictures"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Dune: Part Two | Official Trailer</p>
+          <p class="video-author">Warner Bros. Pictures</p>
+          <p class="video-stats">17 mil. zhliadnutí &#183; pred 2 dňami</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
