@@ -9,11 +9,14 @@ p {
   font-size: 20px;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
 .video-preview {
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
 }
 
 .thumbnail-row {
@@ -21,15 +24,15 @@ p {
 }
 
 .thumbnail {
-  height: auto;
-  width: 300px;
-  display: block;
+  width: 100%;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .channel-img {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
 }
 
 .profile-img {
@@ -38,8 +41,6 @@ p {
 }
 
 .video-info {
-  display: inline-block;
-  width: 200px;
 }
 
 .video-title {
