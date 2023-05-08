@@ -4,11 +4,6 @@ p {
   margin-bottom: 0;
 }
 
-.search-bar {
-  display: block;
-  font-size: 20px;
-}
-
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
